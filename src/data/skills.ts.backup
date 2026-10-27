@@ -1,0 +1,57 @@
+import type { SkillGroup } from './types'
+
+/**
+ * SKILLS: plain, honest chips. No percentages.
+ * Remove anything you do not use; add a `note` such as 'Learning' or 'Used in PlotAI'.
+ */
+export const skillGroups: SkillGroup[] = [
+  {
+    title: 'Programming Languages',
+    skills: [
+      { name: 'Python' },
+      { name: 'Java' },
+      { name: 'SQL' },
+      { name: 'JavaScript / TypeScript', note: 'Used in PlotAI' },
+    ],
+  },
+  {
+    title: 'AI, Machine Learning & Data Science',
+    skills: [
+      { name: 'Machine Learning' },
+      { name: 'Supervised Learning' },
+      { name: 'Unsupervised Learning' },
+      { name: 'Natural Language Processing' },
+      { name: 'Computer Vision' },
+      { name: 'Recommendation Systems' },
+      { name: 'Sentiment Analysis' },
+      { name: 'NumPy' },
+      { name: 'Pandas' },
+      { name: 'Matplotlib' },
+      { name: 'Scikit-learn' },
+      // { name: 'TensorFlow' }, // uncomment if applicable
+    ],
+  },
+  {
+    title: 'Web & Backend Development',
+    skills: [
+      { name: 'HTML' },
+      { name: 'CSS' },
+      { name: 'React' },
+      { name: 'TypeScript' },
+      { name: 'FastAPI' },
+      { name: 'REST APIs' },
+      { name: 'Streamlit' },
+    ],
+  },
+  {
+    title: 'Tools & Technologies',
+    skills: [
+      { name: 'Git' },
+      { name: 'GitHub' },
+      { name: 'VS Code' },
+      { name: 'SQL databases' },
+      // { name: 'Docker' }, // add only if used
+      // { name: 'Hadoop' }, // add only after actual implementation
+    ],
+  },
+]
