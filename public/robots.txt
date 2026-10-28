@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /qr
 
-# After deploying, replace YOUR-SITE-URL with your real https address:
-Sitemap: https://YOUR-SITE-URL/sitemap.xml
+Sitemap: https://portfolio-ten-theta-jo1m730bzy.vercel.app/sitemap.xml

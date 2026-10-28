@@ -69,7 +69,7 @@ export const site: SiteConfig = {
   location: 'Mumbai, Maharashtra, India',
   email: 'tanishqmore369@email.com', // EDIT ME if this address is not exactly right
   github: 'https://github.com/tanishqmore',
-  linkedin: 'https://linkedin.com/in/tanishq-more',
+  linkedin: 'https://www.linkedin.com/in/tanishq-more-863606344/',
 
   // Put your PDF at public/resume.pdf and set this to '/resume.pdf'
   resumeUrl: '',
@@ -136,5 +136,6 @@ export function isValidPublicUrl(url: string): boolean {
     return false
   }
 }
+
 
 
