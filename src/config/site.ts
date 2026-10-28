@@ -1,4 +1,4 @@
-/**
+﻿/**
  * CENTRAL SITE CONFIGURATION
  * ---------------------------------------------------------------
  * Edit this file to update your personal details, links, resume,
@@ -57,7 +57,7 @@ export interface SiteConfig {
 
 export const site: SiteConfig = {
   // EDIT ME after deployment (must start with https://, no trailing slash)
-  siteUrl: '',
+  siteUrl: 'https://portfolio-ten-theta-jo1m730bzy.vercel.app',
 
   name: 'Tanishq More',
   initials: 'TM',
@@ -136,3 +136,5 @@ export function isValidPublicUrl(url: string): boolean {
     return false
   }
 }
+
+
